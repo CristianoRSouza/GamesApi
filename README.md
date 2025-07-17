@@ -35,4 +35,11 @@ A API RESTful expõe endpoints para consulta dos jogos processados, retornando u
   - Retorno de jogo por ID existente e não existente.
   - Tratamento de exceções na leitura de arquivo.
   - Parsing correto de múltiplos jogos.
+ 
+  - ## Melhorias Futuras
+
+- Implementar **Fluent Validation** para garantir validações consistentes, reutilizáveis e fáceis de manter, aumentando a robustez da aplicação.
+- Utilizar **DTOs (Data Transfer Objects)** para encapsular os dados trafegados pela API, evitando exposição desnecessária de informações internas e melhorando a segurança e clareza dos contratos.
+- Integrar um **ORM (Object-Relational Mapper)**, como o **Entity Framework**, para facilitar a persistência dos dados, garantir integridade e simplificar operações com o banco, além de permitir futuras evoluções no modelo de dados com mais agilidade.
+
 
